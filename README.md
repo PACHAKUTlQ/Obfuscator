@@ -6,7 +6,7 @@ Simple and effective powershell obfuscation free obfuscator gadget, VT all green
 
 AMSI bypass + powershell command obfuscation
 
-**Please do not use it for any illegal purposes, or bear the consequences.**
+**This repository is only for security research. Please do not use it for any illegal purposes. This repo isn't responsible for any consequences caused by abuse.**
 
 The above test environments are all physical machines.
 
