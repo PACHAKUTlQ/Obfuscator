@@ -2,11 +2,11 @@
 
 > forked from https://github.com/H4de5-7/powershell-obfuscation
 
-Simple and effective powershell obfuscation free obfuscator gadget, VT all green, can bypass Defender, 360, etc., can perform on-line cobaltstrike and other operations.
+Simple and effective powershell obfuscation free obfuscator gadget, VT all green, can bypass Defender, 360, etc.
 
-AMSI obfuscation bypass + powershell command obfuscation bypass.
+AMSI bypass + powershell command obfuscation
 
-**Please do not use it for any illegal purposes, and bear the consequences.**
+**Please do not use it for any illegal purposes, or bear the consequences.**
 
 The above test environments are all physical machines.
 
