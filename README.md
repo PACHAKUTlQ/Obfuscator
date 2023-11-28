@@ -10,7 +10,7 @@ AMSI bypass + powershell command obfuscation
 
 The above test environments are all physical machines.
 
-## Thoughts
+## Ideas
 
 Having looked at powershell anti-obfuscation related content and papers, the best anti-obfuscation at the moment would be 2022 QAX's [Invoke-Deobfuscation: AST-Based and Semantics-Preserving Deobfuscation for PowerShell Scripts](https://ieeexplore.ieee.org/document/9833705), which continues and improves on [the idea of ZJU in CCS (2019)](https://dl.acm.org/doi/pdf/10.1145/3319535.3363187), using variable tracking and invoke-deobfuscation at the AST level, which is a static analysis plus partial dynamic analysis, and is quite a bit better than defender and VT.
 
@@ -30,7 +30,9 @@ Should be as far as possible to use custom encryption and decryption function. H
 3. To make the characters output efficiently, finally encode them with base64 (it doesn't matter even if they are unencoded at the AST level, because the unencoded content is still obfuscated).
 
 At the same time, AMSI bypass and powershell commands were obfuscated.  Here is just a simple demo of the obfuscator, feel free to play around with it.  I experimented with qax's anti-obfuscation tool and the Unit42 team's anti-obfuscation tool, and neither of them could be solved.
+
 ## How to use
+
 - `./powershell-obfuscation.ps1 -c "whoami"` to obfuscate the command
 
 - `./powershell-obfuscation.ps1 -f "filename"` to obfuscate the specified file
