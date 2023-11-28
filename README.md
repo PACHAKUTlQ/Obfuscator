@@ -1,6 +1,6 @@
 # Obfuscator
 
-> forked from https://github.com/H4de5-7/powershell-obfuscation
+> forked from hxxps://github[.]com/H4de5-7/powershell-obfuscation (hxxps://github[.]com/test1213145/powershell-obfuscation)
 
 Simple and effective powershell obfuscation free obfuscator gadget, VT all green, can bypass Defender, 360, etc.
 
